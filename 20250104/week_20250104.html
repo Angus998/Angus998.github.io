@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI周报(0104-0110)</title>
+    <!-- 引入Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.8;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        h1 {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        h2 {
+            font-size: 2rem;
+            font-weight: 600;
+        }
+        h3 {
+            font-size: 1.5rem;
+            font-weight: 500;
+        }
+        .quote {
+            font-style: italic;
+            color: #555;
+            margin: 2rem 0;
+            padding: 1rem;
+            border-left: 4px solid #007BFF;
+            background-color: #f1f1f1;
+        }
+        .section {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .section ul {
+            padding-left: 1.5rem;
+        }
+        .section ul li {
+            margin-bottom: 0.5rem;
+        }
+        .footer {
+            margin-top: 3rem;
+            text-align: center;
+            color: #777;
+            padding: 1rem;
+            background-color: #f8f9fa;
+            border-top: 1px solid #ddd;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .img-fluid {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin: 1rem 0;
+        }
+        .responsive-img {
+            max-width: 90%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container my-5">
+        <h1 class="text-center mb-4">AI周报(0104-0110)</h1>
+
+        <div class="section">
+            <h2>1、热点资讯——英伟达发布RTX50系显卡，赋能AI领域效率提升</h2>
+            <p>消费电子展CES 2025于当地时间1月7日至10日开展，英伟达发布了最新基于Blackwell架构的RTX 50系列显卡，旨在推动游戏、自动驾驶、机器人和代理式 AI 领域的技术发展。RTX 5090**（用于张量计算和模型训练推理的）AI TOPS算力达3352，是RTX 4090算力的253%**。RTX 5090还配备 **32GB GDDR7显存，显存带宽高达1792 GB/s**，几乎是RTX 4090的两倍，可以更加从容地跑大模型或更大批量的推理任务。在功耗上，RTX 5090 达到575W，相比RTX 4090 （450W）提升了27%。</p>
+            <p>由于美国出口管制，中国市场特供的RTX 5090D在AI算力上（AI TOPS 2375）相较于RTX 5090缩水了30%，保留了32G的大显存，在游戏领域和RTX 5090没有性能上差异。 </p>
+            <p>50系显卡介绍：<a href="https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/">GeForce RTX 50 Series Graphics Cards | NVIDIA</a></p>
+            <div class="center">
+                <img src="./RTX50.jpg" alt="示例图片" class="responsive-img">
+            </div>
+    </div>
+        </div>
+
+        <div class="section">
+            <h2>2、AI模型——阿里通义万相升级 2.1版本，首次实现中文文字视频生成功能</h2>
+            <p>2025年1月10日，<a href="https://tongyi.aliyun.com/wanxiang/videoCreation">[阿里旗下通义万相]</a>宣布推出 2.1 版本模型升级，视频生成、图像生成两大能力均有显著提升。在视频生成方面，2.1 版本通过自研的高效 VAE 和 DiT 架构增强了时空上下文建模能力，支持无限长 1080P 视频的高效编解码，并且首次实现了**中文文字视频生成功能**，登上 权威评测榜单VBench 第一。 总体来看，2.1版本在处理**复杂运动、还原真实物理规律、提升电影质感**及优化指令遵循方面取得了显著进展，为 AI 内容创作提供新的工具。</p>
+            <div class="center">
+                <img src="./廉洁自律.png" alt="示例图片" class="responsive-img">
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>3、AI模型——微软新算法赋能7B模型，数学推理能力超越OpenAI o1-preview</h2>
+            <p>微软亚洲研究院最新推出的<a href="https://arxiv.org/abs/2501.04519">rStar-Math 算法</a>，通过代码增强的思维链（Chain-of-Thought）和蒙特卡洛树搜索（MCTS）等技术，显著提升了小模型（如 Qwen2.5 7B）的数学推理能力。该算法通过多轮自我进化，使小模型在不依赖蒸馏教师模型的情况下，能够生成高质量的推理步骤，并在多个数学基准测试中超越了 OpenAI 的 o1-preview 模型。</p>
+
+            <div class="center">
+                <img src="./rstar.jpg" alt="示例图片" class="responsive-img">
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>4、AI应用——AI眼镜产品井喷，有需求、强吸引，客户端AI专区可上架？</h2>
+            <p>CES展会上，AI眼镜成为最受关注的产品之一，吸引了大量参展者体验。这次展出的热门AI眼镜几乎都是中国品牌，包括搭载阿里通义的雷鸟，以及Rokid、李未可科技等。展会上，最常见的AI眼镜有两类：一类是**AI拍摄眼镜**，主打拍照、音频和AI功能，注重轻便舒适；另一类是**AI+AR眼镜**，结合AR显示技术，提供更好的虚拟屏幕体验和手势交互。无论是拍摄还是AR功能，轻量化、小型化成为AI眼镜的主要发展趋势，几乎所有展出的眼镜都控制在35g到50g之间。</p>
+            <p>尽管AI眼镜在硬件和拍摄功能上已有进展，当前的**AI体验仍被认为是最大的短板**。大多数产品的AI响应时间仍较长，存在“能用但不够好用”的问题。</p>
+            <div class="center">
+                <img src="https://imagedelivery.net/qGOFcc1O8XwTZW3W1JAHHg/6e516849-50cc-425c-b9b4-4518b07de900/public" alt="示例图片" class="responsive-img">
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>5、AI应用——阿里AI程序员上线，前后端全覆盖，对话协作实现复杂编程</h2>
+            <p>2025年1月8日，阿里云正式宣布其革命性产品——通义灵码AI程序员全面上线，旨在为全球开发者提供前所未有的编程支持。这一人工智能程序员不仅是简单的编码助手，更是一个智能编程伙伴，能够**大幅提升开发效率并降低技术门槛**。其最大亮点在于其对多种开发工具的支持，成为全球首个同时兼容VSCode和JetBrains IDEs的AI程序员。**通过自然语言对话**，开发者可以与AI进行高效协作，完成复杂的编码任务。此外，AI程序员也具备上下文感知能力和意图理解能力，使其在与开发者的互动中更加灵活。它能够**理解开发者的需求，主动提供多种方案**，并在实现方案后进行**反思迭代**。这种智能反馈不仅提升了代码质量，还降低了出错的风险。</p>
+            <p>使用指南<a href="https://help.aliyun.com/zh/lingma/user-guide/ai-developer-guidlines">通义灵码 AI 程序员使用指南_智能编码助手_AI编程_智能编码助手通义灵码(Lingma)-阿里云帮助中心</a>
+        </div>
+
+        <div class="footer">
+            <p>AI周报(0104-1110) - 结束</p>
+            <a href="../index.html">返回首页</a>
+        </div>
+    </div>
+
+    <!-- 引入Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

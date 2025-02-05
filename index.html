@@ -3,72 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的网页</title>
+    <title>每周AI资讯</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
             margin: 0;
             padding: 0;
+            background-color: #f4f4f4;
         }
         header {
             background-color: #333;
-            color: white;
+            color: #fff;
             padding: 10px 0;
             text-align: center;
         }
-        nav {
-            margin: 0;
-            padding: 10px;
-            background-color: #444;
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        nav a {
-            color: white;
-            margin: 0 15px;
+        h1, h2 {
+            color: #333;
+        }
+        .news-item {
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+        .news-item:last-child {
+            border-bottom: none;
+        }
+        .news-item h3 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+        .news-item p {
+            margin: 10px 0;
+            color: #555;
+        }
+        .news-item a {
+            color: #007BFF;
             text-decoration: none;
         }
-        nav a:hover {
+        .news-item a:hover {
             text-decoration: underline;
-        }
-        main {
-            padding: 20px;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>欢迎来到我的网页</h1>
+        <h1>每周AI资讯</h1>
     </header>
-    <nav>
-        <a href="#home">首页</a>
-        <a href="#about">关于</a>
-        <a href="#contact">联系</a>
-    </nav>
-    <main>
-        <section id="home">
-            <h2>首页</h2>
-            <p>这是首页内容。</p>
-        </section>
-        <section id="about">
-            <h2>关于</h2>
-            <p>这是关于页面的内容。</p>
-        </section>
-        <section id="contact">
-            <h2>联系</h2>
-            <p>这是联系页面的内容。</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2023 我的网页. 保留所有权利。</p>
-    </footer>
+    <div class="container">
+        <div class="news-item">
+            <h3>AI新闻标题1</h3>
+            <p>这里是AI新闻的简要描述。你可以在这里添加更多的内容。</p>
+            <a href="https://example.com" target="_blank">阅读更多</a>
+        </div>
+        <div class="news-item">
+            <h3>AI新闻标题2</h3>
+            <p>这里是AI新闻的简要描述。你可以在这里添加更多的内容。</p>
+            <a href="https://example.com" target="_blank">阅读更多</a>
+        </div>
+        <!-- 添加更多新闻条目 -->
+    </div>
 </body>
 </html>

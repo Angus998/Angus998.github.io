@@ -1,1 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI周报(0201-0207)</title>
+    <!-- 引入Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.8;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        h1 {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        h2 {
+            font-size: 2rem;
+            font-weight: 600;
+        }
+        h3 {
+            font-size: 1.5rem;
+            font-weight: 500;
+        }
+        .quote {
+            font-style: italic;
+            color: #555;
+            margin: 2rem 0;
+            padding: 1rem;
+            border-left: 4px solid #007BFF;
+            background-color: #f1f1f1;
+        }
+        .section {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .section ul {
+            padding-left: 1.5rem;
+        }
+        .section ul li {
+            margin-bottom: 0.5rem;
+        }
+        .footer {
+            margin-top: 3rem;
+            text-align: center;
+            color: #777;
+            padding: 1rem;
+            background-color: #f8f9fa;
+            border-top: 1px solid #ddd;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .img-fluid {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin: 1rem 0;
+        }
+        .responsive-img {
+            max-width: 90%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container my-5">
+        <h1 class="text-center mb-4">AI周报(0201-0207)</h1>
 
+        <div class="section">
+            <h2>1、热点资讯——CCF Talk高校专家共话DeepSeek技术原理和未来发展</h2>
+            <p>2月2日，清复交5位高校专家在CCF Talk直播中就近期DeepSeek的热点话题交流了各自观点。核心观点一是DeepSeek-R1的第一个突破在于其独特的技术路线：通过<strong>强化学习技术等算法层面的创新来增强推理</strong>，而不是通过知识蒸馏或预训练微调来复现OpenAI o1的推理能力；同时将强化学习带来的推理能力泛化到全场景，使得用户实际使用时可以感受到其在写作等任务中的卓越表现。</p>
+            <p>另一方面，模型架构和系统层面的优化创新使得其训练成本低廉，其中包括针对MoE模型架构的<strong>负载均衡</strong>优化、针对数据并行的<strong>通信开销</strong>优化、针对GPU显存利用效率的<strong>内存管理</strong>优化、以及<strong>混合精度训练和细粒度量化</strong>的计算优化。这些系统级别的优化措施，有些从软件层面提升了底层硬件的效率，有些涉及对底层硬件的修改，扩展了硬件优化的空间，结果是不仅降低了训练成本，也提升了模型整体性能，为业界对<strong>软硬件协同推动AI技术生态</strong>提供重要参考。</p>
+            <p>最终，DeepSeek选择了<strong>开源的道路</strong>，“具有深远的战略意义”，不像OpenAI的闭源策略和高收费，迅速地让全球用户真正体验到深度推理带来的震撼，并且让研究者都有机会亲身参与到强大推理能力的开发中。</p>
+            <p>针对<strong>MoE的模型架构是否是通往AGI之路最优解</strong>的问题，专家表示“这应该是一个开放性的问题”。未来底层硬件或架构芯片的推陈出新，都可能会使模型架构发生很大变化；另一方面，要保证模型高效推理必定是模块化和稀疏激活的，具体如何实现则需要持续探索创新。</p>
+            <a href="https://mp.weixin.qq.com/s/gRrEhxOUkH73TjzMcOX60w" target="_blank">阅读更多</a>
+            
+<!--             <div class="center">
+                <img src="./京东健康.jpg" alt="示例图片" class="responsive-img">
+            </div> -->
+        </div>
+
+        <div class="section">
+            <h2>2、AI应用(toB/C)——Adobe AI助手新增合同理解和对比功能，提升合同智能流程效率</h2>
+            <p>Adobe Acrobat 的AI助手近日新增了<strong>理解合同</strong>和<strong>比对合同差异</strong>的功能。在功能上用户无需手动切换标签页，即可提取多份文本的关键信息，形成文本摘要。</p>
+            <p>而新版本在此功能基础上，能够自动识别合同的文本或扫描件，列出关键条款，如违约责任、合同期限等；也可以识别合同之间的差异，例如新旧合同的更改内容，也可以根据合同内容推荐用户可能提出的问题，以这些方法来提高用户阅读和审核合同的效率，帮助用户更好地理解合同内容。</p>
+            <a href="https://www.sohu.com/a/855692724_121798711" target="_blank">阅读更多</a>
+        </div>
+
+        <div class="section">
+          <h3>4、AI应用(toC)——OpenAI推出AI工具Deep Research,专为需要复杂、深度研究的用户设计,完成知识密集型工作</h3>
+            <p>OpenAI发布的Deep Research能够结合互联网开放资源进行深入复杂的研究工作。不仅仅可以像AI搜索工具为用户快速提供答案或总结，也更加注重全面的研究支持，专为在金融、科学、政策和工程等领域从事知识密集型工作的用户设计，帮助用户综合多个信息来源完成复杂研究任务。该工具基于OpenAI最新推出的o3模型，功能上支持网页浏览、图像分析、文本处理、PDF文件解析等，目前仅支持文本输出，<strong>每次分析需要5到30分钟完成</strong>。</p>
+            <a href="https://www.bestblogs.dev/article/816de5" target="_blank">阅读更多</a>
+        </div>
+
+        <div class="section">
+           <h3>5、AI模型(基座大模型)——通义千问发布最新版本Qwen2.5-MAX,编程、数学能力卓越</h3>
+            <p>Qwen2.5-Max模型是阿里云通义团队对MoE模型的最新探索成果，预训练数据超过20万亿token，在多项公开主流模型评测基准上录得高分,在逻辑性较强的数学和代码任务当中，Qwen2.5-Max的成绩都超过了o1-mini，和满血o1以及DeepSeek-R1并列第一。目前，Qwen2.5-Max已在阿里云百炼平台上架，企业和开发者都可通过阿里云百炼调用新模型API。同时，也可以在全新的Qwen Chat平台上中使用Qwen2.5-Max，直接与模型对话，或者使用AI搜索等功能。</p>
+            <p>持续提升数据规模和模型参数规模能够有效提升模型的智能水平。阿里云提出除了在预训练的scaling(扩大数据和参数规模)继续探索外，接下来将大力投入强化学习的scaling。<p>
+            <a href="https://mp.weixin.qq.com/s/BZrTtBIWZta701-GP_0b8A" target="_blank">阅读更多</a>
+        </div>
+
+        <div class="footer">
+            <p>AI周报(0201-0207) - 结束</p>
+            <a href="../index.html">返回首页</a>
+        </div>
+    </div>
+
+    <!-- 引入Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

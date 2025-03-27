@@ -142,8 +142,8 @@
 
         <div class="news-item">
             <h3>2、AI应用(toC)——AgenticSeek，一款AI语音助手，开源、完全本地化为核心特点</h3>
-            <p>AgenticSeek是对Manus概念的<strong>完全本地化</strong>的替代品，也是一款支持语音交互的AI助手，能够编写代码（写一个贪吃蛇游戏）、浏览文件系统（询问文件路径）、浏览网页(联网搜索)以及闲聊等。它采用<strong>本地化部署</strong>的大模型如DeepSeekR1等构建，完全在用户个人的硬件机器上运行，全程不向云端发送任何数据，以确保数据隐私。</p>
-            <p>除了比较有特点的语音交互以外，该应用采用了Meta发布的Ollama服务工具来实现大模型的本地化部署和调用保证生产力提升的同时数据不外泄；另外也提出倾向于使用DeepSeekR1等推理模型，因为其推理和工具调用能力更加强大。<p>
+            <p>AgenticSeek是对Manus概念的<strong>完全本地化</strong>的替代品，也是一款支持<strong>语音交互</strong>的AI助手，能够编写代码（写一个贪吃蛇游戏）、浏览文件系统（询问文件路径）、浏览网页(联网搜索)以及闲聊等。它采用本地化部署的大模型如DeepSeekR1等构建，完全在用户个人的硬件机器上运行，全程不向云端发送任何数据，以确保数据隐私。</p>
+            <p>除了比较有特点的语音交互以外，该应用采用了Meta发布的<strong>Ollama服务工具</strong>来实现大模型的本地化部署和调用保证生产力提升的同时数据不外泄；另外也提出倾向于使用DeepSeekR1等推理模型，因为其推理和工具调用能力更加强大。<p>
             <p>该应用提出后续的开发方向包括：复杂任务规划、用户偏好记忆、RAG知识辅助、OCR和可视化界面开发等。</p>
             <a href="https://github.com/Fosowl/agenticSeek" target="_blank">代码仓库和运行教程</a><br>
             <a href="https://github.com/Fosowl/agenticSeek" target="_blank">Ollama本地化部署实践</a><br>
@@ -158,17 +158,12 @@
         </div>
 
         <div class="news-item">
-            <h3>4、AI模型(底座大模型)——中文电商问答基准评估，DeepSeek-R1&V3效果最佳</h3>
-            <p>淘天集团未来生活实验室发布的 ChineseEcomQA，是一个专注于评估大模型在电商领域能力的创新性基准，兼顾电商任务的多样性和领域特殊性。其核心设计包括：</p>
-            <ul>
-                <li> <strong>基础概念覆盖</strong>: 覆盖20大行业，聚焦10类核心电商概念（如行业分类、品牌属性、用户意图等），包含1800组高质量问答，适配多样电商任务；</li>
-                <li> <strong>混合数据构建</strong>: 融合LLM生成、检索增强（RAG）与人工标注，确保数据质量与领域专业性；</li>
-                <li> <strong>平衡评估维度</strong>: 兼顾行业通用性与专业性，支持精准领域能力验证。</li>
-            </ul>
-            <p>该基准通过11个闭源模型和16个开源模型进行评估，发现 DeepSeek-R1 和 DeepSeek-V3 表现最佳，在电商知识掌握和推理方面具有优势。同时，淘天团队也得出研究结论：对于小型LLM，引入RAG信息可以显著提高评估指标的绝对值；对于大型LLM，RAG也可以实现显著的相对改进，并且在RAG设置下，模型之间的性能仍然遵循缩放规律，但差距迅速缩小。</p>
-            <a href="https://mp.weixin.qq.com/s/Hcu0RCx_5mf0QnKX4ZT0Fg" target="_blank">27个大模型混战电商领域，DeepSeek-R1&V3仍是最强丨首个中文电商问答基准评估结果</a><br>
-            <a href="https://arxiv.org/abs/2502.20196" target="_blank">论文链接</a><br>
-            <a href="https://github.com/OpenStellarTeam/ChineseEcomQA" target="_blank">代码仓库</a><br>
+            <h3>4、AI模型(底座大模型)——DeepSeekV3更新，前端代码和内容创作能力显著增强</h3>
+            <p>DeepSeek-V3-0324模型悄然上线，通过FP8精度和4-bit量化技术实现高效运行，在512GB M3 Ultra(苹果3月发布的处理器芯片)上速度超20 token/s，代码能力直逼Claude 3.7 Sonnet，数学推理可解竞赛级问题，支持单提示生成完整响应式网页代码。</p>
+            <p>该模型采用MIT开源协议，允许自由商用，有用户提出更新后的V3模型可以轻松免费地创建外观精美的图像网站，虽然不是推理模型，但现在比R1更适合<strong>制作 HTML5 + CSS + 前端</strong>。另一方面，新V3模型在内容创作方面也有明显提升，在联网模式下，新版本<strong>输出内容更加详实、排版更美观</strong>，中长篇内容如3000字的市场报告等生成质量更高。</p>
+            
+            <a href="https://mp.weixin.qq.com/s/XK6ymJL7y0vo_GQXxmpuBA" target="_blank">DeepSeek-V3 模型更新，各项能力全面进阶</a><br>
+            <a href="https://mp.weixin.qq.com/s/2Is-y_kvuKzzBM39NJWx9w" target="_blank">DeepSeek-V3 深夜低调升级，代码进化令人震惊</a><br>
         </div>
 
         

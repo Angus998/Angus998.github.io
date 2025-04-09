@@ -1,0 +1,31 @@
+Latest AI News (2025-04-09 09:12)
+==================================================
+
+1. New open source AI company Deep Cogito releases first models and they’re already topping the charts
+   Published: Tue, 08 Apr 2025 22:01:34 +0000
+   Link: https://venturebeat.com/ai/new-open-source-ai-company-deep-cogito-releases-first-models-and-theyre-already-topping-the-charts/
+   Summary: The initial model lineup includes five base sizes: 3 billion, 8 billion, 14 billion, 32 billion, and 70 billion parameters....
+
+--------------------------------------------------
+
+2. Alibaba Cloud targets global AI growth with new models and tools
+   Published: Tue, 08 Apr 2025 17:56:13 +0000
+   Link: https://www.artificialintelligence-news.com/news/alibaba-cloud-global-ai-growth-new-models-and-tools/
+   Summary: Alibaba Cloud has expanded its AI portfolio for global customers with a raft of new models, platform enhancements, and Software-as-a-Service (SaaS) tools. The announcements, made during its Spring Lau...
+
+--------------------------------------------------
+
+3. UK forms AI Energy Council to align growth and sustainability goals
+   Published: Tue, 08 Apr 2025 14:10:49 +0000
+   Link: https://www.artificialintelligence-news.com/news/uk-forms-ai-energy-council-align-growth-sustainability-goals/
+   Summary: The UK government has announced the first meeting of a new AI Energy Council aimed at ensuring the nation’s AI and clean energy goals work in tandem to drive economic growth. The inaugural meeting of ...
+
+--------------------------------------------------
+
+4. ChatGPT hits record usage after viral Ghibli feature—Here are four risks to know first
+   Published: Tue, 08 Apr 2025 10:00:47 +0000
+   Link: https://www.artificialintelligence-news.com/news/chatgpt-hits-record-usage-after-viral-ghibli-feature/
+   Summary: Following the release of ChatGPT’s new image-generation tool, user activity has surged; millions of people have been drawn to a trend whereby uploaded images are inspired by the unique visual style of...
+
+--------------------------------------------------
+

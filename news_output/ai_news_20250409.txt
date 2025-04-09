@@ -1,0 +1,73 @@
+AI热点新闻更新 (2025-04-09 10:30)
+============================================================
+
+1. Alibaba Cloud targets global AI growth with new models and tools
+   时间: 2025-04-08 17:56
+   链接: https://www.artificialintelligence-news.com/news/alibaba-cloud-global-ai-growth-new-models-and-tools/
+   摘要: Alibaba Cloud has expanded its AI portfolio for global customers with a raft of new models, platform enhancements, and Software-as-a-Service (SaaS) tools. The announcements, made during its Spring Launch 2025 online event, underscore the drive by Alibaba to accelerate AI innovation and adoption on a...
+
+------------------------------------------------------------
+
+2. UK forms AI Energy Council to align growth and sustainability goals
+   时间: 2025-04-08 14:10
+   链接: https://www.artificialintelligence-news.com/news/uk-forms-ai-energy-council-align-growth-sustainability-goals/
+   摘要: The UK government has announced the first meeting of a new AI Energy Council aimed at ensuring the nation’s AI and clean energy goals work in tandem to drive economic growth. The inaugural meeting of the council will see members agree on its core objectives, with a central focus on how the governmen...
+
+------------------------------------------------------------
+
+3. ChatGPT hits record usage after viral Ghibli feature—Here are four risks to know first
+   时间: 2025-04-08 10:00
+   链接: https://www.artificialintelligence-news.com/news/chatgpt-hits-record-usage-after-viral-ghibli-feature/
+   摘要: Following the release of ChatGPT’s new image-generation tool, user activity has surged; millions of people have been drawn to a trend whereby uploaded images are inspired by the unique visual style of Studio Ghibli. The spike in interest contributed to record use levels for the chatbot and strained ...
+
+------------------------------------------------------------
+
+4. 4 signals AI will continue to be a narrative in 2025
+   时间: 2025-04-07 08:45
+   链接: https://www.artificialintelligence-news.com/news/4-signals-ai-will-continue-to-be-a-narrative-in-2025/
+   摘要: AI innovations have taken the world by storm since ChatGPT’s debut in November 2022. We’ve seen more organisations integrate AI into their workflows: a recent survey by McKinsey revealed that 78% of the respondents work in organisations that use AI in at least one business function. What’s more intr...
+
+------------------------------------------------------------
+
+5. How AI transforms financial platforms: Tools and strategies
+   时间: 2025-04-07 08:09
+   链接: https://www.artificialintelligence-news.com/news/how-ai-transforms-financial-platforms-tools-and-strategies/
+   摘要: Financial platforms today enable users to access almost every financial service or product online from the convenience of their homes. The fintech revolution has been gaining momentum over the years, helping companies provide robust services and solutions to customers without the limitation of geogr...
+
+------------------------------------------------------------
+
+6. Navigating the EU AI Act: Implications for UK businesses
+   时间: 2025-04-07 07:10
+   链接: https://www.artificialintelligence-news.com/news/navigating-the-eu-ai-act-implications-for-uk-businesses/
+   摘要: The EU AI Act, which came into effect on August 1, 2024, marks a turning point in the regulation of artificial intelligence. Aimed at governing the use and development of AI, it imposes rigorous standards for organisations operating within the EU or providing AI-driven products and services to its m...
+
+------------------------------------------------------------
+
+7. Beyond acceleration: the rise of Agentic AI
+   时间: 2025-04-07 06:31
+   链接: https://www.artificialintelligence-news.com/news/beyond-acceleration-the-rise-of-agentic-ai/
+   摘要: We already find ourselves at an inflection point with AI. According to a recent study by McKinsey, we’ve reached the turning point where ‘businesses must look beyond automation and towards AI-driven reinvention’ to stay ahead of the competition. While the era of AI-driven acceleration isn’t over, a ...
+
+------------------------------------------------------------
+
+8. Midjourney V7: Faster AI image generation
+   时间: 2025-04-04 16:34
+   链接: https://www.artificialintelligence-news.com/news/midjourney-v7-faster-ai-image-generation/
+   摘要: Midjourney has announced the alpha release of its V7 image generation model for testing by the AI community. The new model packs improvements in text prompt understanding, image quality, and feature coherence. “V7 is an amazing model. It’s much smarter with text prompts, image prompts look fantastic...
+
+------------------------------------------------------------
+
+9. AWISEE.com Analyzes Gmail’s AI-Powered Search Update and Its Impact on Influencer Marketing
+   时间: 2025-04-04 09:17
+   链接: https://www.artificialintelligence-news.com/news/awisee-gmails-ai-powered-update-the-impacts-on-influencer-marketing/
+   摘要: Google has recently released an AI-powered update to Gmail’s search functionality. The update sees the email app move away from the chronological display of search results to a new relevance-based ordering of results. The built-in AI engine analyses emails based on factors like recency, most-clicked...
+
+------------------------------------------------------------
+
+10. Ant Group uses domestic chips to train AI models and cut costs
+   时间: 2025-04-03 09:59
+   链接: https://www.artificialintelligence-news.com/news/ant-group-uses-domestic-chips-to-train-ai-models-and-cut-costs/
+   摘要: Ant Group is relying on Chinese-made semiconductors to train artificial intelligence models to reduce costs and lessen dependence on restricted US technology, according to people familiar with the matter. The Alibaba-owned company has used chips from domestic suppliers, including those tied to its p...
+
+------------------------------------------------------------
+

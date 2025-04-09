@@ -161,9 +161,9 @@ def git_push():
         # 添加文件到暂存区
         repo.git.add(CONFIG['output_dir'])
         # 检查是否有更改需要提交
-        if not repo.is_dirty():
-            logging.info("本地仓库没有更改，无需推送。")
-            return
+        # if not repo.is_dirty():
+        #     logging.info("本地仓库没有更改，无需推送。")
+        #     return
         # 提交更改
         repo.index.commit(f"自动更新新闻 {datetime.now().strftime('%Y%m%d-%H%M')}")
         # 检查 SSH 密钥是否加载
@@ -216,4 +216,19 @@ if __name__ == "__main__":
     # else:
     #     logging.info("未获取到新闻数据")
 
-    git_push()
+    # git_push()
+    # 载入SSH_AUTH_SOCK 环境变量路径,预先在pycharm里配好
+    ssh_auth_sock = os.environ.get('SSH_AUTH_SOCK')
+    if not ssh_auth_sock:
+        logging.error("未找到 SSH_AUTH_SOCK 环境变量，请在 PyCharm 中配置该环境变量。")
+    # 初始化本地仓库
+    repo = Repo.init(os.getcwd())
+    # 检查远程仓库 'origin' 是否已经存在
+    if 'origin' not in repo.remotes:
+        # 添加远程仓库地址
+        logging.error("未找到远程仓库 'origin'")
+        origin = repo.create_remote('origin', CONFIG['github_repo'])
+    else:
+        origin = repo.remote('origin')
+    repo.git.add(CONFIG['output_dir'])
+    origin.fetch()

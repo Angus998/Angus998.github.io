@@ -7,6 +7,7 @@ from git import Repo
 from pathlib import Path
 from bs4 import BeautifulSoup
 import logging
+import subprocess
 
 # 配置日志
 logging.basicConfig(
@@ -24,7 +25,6 @@ CONFIG = {
         'https://venturebeat.com/tag/ai/feed/'
     ],
     "output_dir": "news_output",
-    # "github_repo": "https://github.com/Angus998/Angus998.github.io.git",  # http格式
     "github_repo": "git@github.com:Angus998/Angus998.github.io.git",  # ssh格式
     "git_branch": "test",
     "max_news": 20  # 最大新闻数量
@@ -32,6 +32,7 @@ CONFIG = {
 
 # 初始化目录
 Path(CONFIG['output_dir']).mkdir(exist_ok=True)
+
 
 @lru_cache(maxsize=128)
 def parse_rss(feed_url):
@@ -45,6 +46,7 @@ def parse_rss(feed_url):
     except Exception as e:
         logging.error(f"解析 RSS 源 {feed_url} 失败: {e}")
         return None
+
 
 def fetch_news():
     """
@@ -69,6 +71,7 @@ def fetch_news():
                     logging.error(f"处理新闻条目失败: {e}")
     return sorted(news_items, key=lambda x: x['published'], reverse=True)
 
+
 def generate_txt(news_items):
     """
     生成 TXT 文件
@@ -91,6 +94,7 @@ def generate_txt(news_items):
     except Exception as e:
         logging.error(f"生成 TXT 文件失败: {e}")
         return None
+
 
 def generate_html(news_items):
     """
@@ -141,16 +145,58 @@ def git_push():
     自动提交到 GitHub
     """
     try:
+        # 载入SSH_AUTH_SOCK 环境变量路径,预先在pycharm里配好
+        ssh_auth_sock = os.environ.get('SSH_AUTH_SOCK')
+        if not ssh_auth_sock:
+            logging.error("未找到 SSH_AUTH_SOCK 环境变量，请在 PyCharm 中配置该环境变量。")
+            return
         # 初始化本地仓库
         repo = Repo.init(os.getcwd())
-        # 添加远程仓库地址
-        origin = repo.create_remote('origin', CONFIG['github_repo'])
+        # 检查远程仓库 'origin' 是否已经存在
+        if 'origin' not in repo.remotes:
+            # 添加远程仓库地址
+            origin = repo.create_remote('origin', CONFIG['github_repo'])
+        else:
+            origin = repo.remote('origin')
         # 添加文件到暂存区
         repo.git.add(CONFIG['output_dir'])
+        # 检查是否有更改需要提交
+        if not repo.is_dirty():
+            logging.info("本地仓库没有更改，无需推送。")
+            return
         # 提交更改
         repo.index.commit(f"自动更新新闻 {datetime.now().strftime('%Y%m%d-%H%M')}")
+        # 检查 SSH 密钥是否加载
+        try:
+            result = subprocess.run(['ssh-add', '-l'], capture_output=True, text=True)
+            if result.returncode != 0:
+                if "Could not open a connection to your authentication agent" in result.stderr:
+                    logging.error("SSH 代理未启动，请执行 'eval \"$(ssh-agent -s)\"' 启动代理，然后再执行 'ssh-add' 添加密钥。")
+                    return
+                else:
+                    logging.error(f"检查 SSH 密钥加载时出错: {result.stderr.strip()}")
+                    return
+            logging.info(f"已加载的 SSH 密钥: {result.stdout.strip()}")
+        except Exception as e:
+            logging.error(f"执行 ssh-add -l 时出错: {e}")
+            return
+        # 检查远程仓库是否可达
+        try:
+            origin.fetch()
+        except Exception as e:
+            logging.error(f"无法连接到远程仓库: {e}")
+            logging.error("可能的原因：SSH 密钥配置问题、远程仓库地址错误、网络问题、GitHub 服务问题或权限问题，请检查。")
+            return
+        # 检查本地分支和远程分支是否匹配
+        local_branch = repo.active_branch.name
+        if local_branch != CONFIG['git_branch']:
+            logging.error(f"本地分支 {local_branch} 与配置的分支 {CONFIG['git_branch']} 不匹配，无法推送。")
+            return
         # 推送文件到远程仓库
-        origin.push(refspec=f'{CONFIG["git_branch"]}:{CONFIG["git_branch"]}')
+        push_info = origin.push(refspec=f'{CONFIG["git_branch"]}:{CONFIG["git_branch"]}')
+        for info in push_info:
+            if info.flags & info.ERROR:
+                raise Exception(f"Push failed: {info.summary}")
         logging.info("GitHub 推送成功")
     except Exception as e:
         logging.error(f"Git 操作失败: {e}")
@@ -170,14 +216,4 @@ if __name__ == "__main__":
     # else:
     #     logging.info("未获取到新闻数据")
 
-    # 初始化本地仓库
-    repo = Repo.init(os.getcwd())
-    # 添加远程仓库地址
-    origin = repo.create_remote('origin', CONFIG['github_repo'])
-    # 添加文件到暂存区
-    repo.git.add(CONFIG['output_dir'])
-    # 提交更改
-    repo.index.commit(f"自动更新新闻 {datetime.now().strftime('%Y%m%d-%H%M')}")
-    # 推送文件到远程仓库
-    origin.push(refspec=f'{CONFIG["git_branch"]}:{CONFIG["git_branch"]}')
-    logging.info("GitHub 推送成功")
+    git_push()

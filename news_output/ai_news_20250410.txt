@@ -1,0 +1,214 @@
+AI热点新闻更新 (2025-04-10 08:45)
+============================================================
+
+1. Web3 tech helps instil confidence and trust in AI
+   时间: 2025-04-09 13:47
+   链接: https://www.artificialintelligence-news.com/news/web3-tech-helps-instil-confidence-and-trust-in-ai/
+   摘要: The promise of AI is that it’ll make all of our lives easier. And with great convenience comes the potential for serious profit. The United Nations thinks AI could be a $4.8 trillion global market by 2033 – about as big as the German economy. But forget about 2033: in the here and now, AI […]
+The po...
+
+------------------------------------------------------------
+
+2. How can AI unlock human potential in the supply chain?
+   时间: 2025-04-09 12:21
+   链接: https://www.artificialintelligence-news.com/news/how-can-ai-unlock-human-potential-in-the-supply-chain/
+   摘要: AI is driving a new revolution across a number of industries and the supply chain is no exception. AI has been the most transformative technology of the decade, and it’s no secret it has helped supply chains become more efficient, resilient, and responsive, while allowing organisations to become mor...
+
+------------------------------------------------------------
+
+3. Deep Cogito open LLMs use IDA to outperform same size models
+   时间: 2025-04-09 08:03
+   链接: https://www.artificialintelligence-news.com/news/deep-cogito-open-llms-use-ida-outperform-same-size-models/
+   摘要: Deep Cogito has released several open large language models (LLMs) that outperform competitors and claim to represent a step towards achieving general superintelligence. The San Francisco-based company, which states its mission is “building general superintelligence,” has launched preview versions o...
+
+------------------------------------------------------------
+
+4. DeepSeek’s AIs: What humans really want
+   时间: 2025-04-09 07:44
+   链接: https://www.artificialintelligence-news.com/news/deepseeks-ai-breakthrough-teaching-machines-to-learn-what-humans-really-want/
+   摘要: Chinese AI startup DeepSeek has solved a problem that has frustrated AI researchers for several years. Its breakthrough in AI reward models could improve dramatically how AI systems reason and respond to questions. In partnership with Tsinghua University researchers, DeepSeek has created a technique...
+
+------------------------------------------------------------
+
+5. New open source AI company Deep Cogito releases first models and they’re already topping the charts
+   时间: 2025-04-08 22:01
+   链接: https://venturebeat.com/ai/new-open-source-ai-company-deep-cogito-releases-first-models-and-theyre-already-topping-the-charts/
+   摘要: The initial model lineup includes five base sizes: 3 billion, 8 billion, 14 billion, 32 billion, and 70 billion parameters....
+
+------------------------------------------------------------
+
+6. Alibaba Cloud targets global AI growth with new models and tools
+   时间: 2025-04-08 17:56
+   链接: https://www.artificialintelligence-news.com/news/alibaba-cloud-global-ai-growth-new-models-and-tools/
+   摘要: Alibaba Cloud has expanded its AI portfolio for global customers with a raft of new models, platform enhancements, and Software-as-a-Service (SaaS) tools. The announcements, made during its Spring Launch 2025 online event, underscore the drive by Alibaba to accelerate AI innovation and adoption on a...
+
+------------------------------------------------------------
+
+7. UK forms AI Energy Council to align growth and sustainability goals
+   时间: 2025-04-08 14:10
+   链接: https://www.artificialintelligence-news.com/news/uk-forms-ai-energy-council-align-growth-sustainability-goals/
+   摘要: The UK government has announced the first meeting of a new AI Energy Council aimed at ensuring the nation’s AI and clean energy goals work in tandem to drive economic growth. The inaugural meeting of the council will see members agree on its core objectives, with a central focus on how the governmen...
+
+------------------------------------------------------------
+
+8. ChatGPT hits record usage after viral Ghibli feature—Here are four risks to know first
+   时间: 2025-04-08 10:00
+   链接: https://www.artificialintelligence-news.com/news/chatgpt-hits-record-usage-after-viral-ghibli-feature/
+   摘要: Following the release of ChatGPT’s new image-generation tool, user activity has surged; millions of people have been drawn to a trend whereby uploaded images are inspired by the unique visual style of Studio Ghibli. The spike in interest contributed to record use levels for the chatbot and strained ...
+
+------------------------------------------------------------
+
+9. 4 signals AI will continue to be a narrative in 2025
+   时间: 2025-04-07 08:45
+   链接: https://www.artificialintelligence-news.com/news/4-signals-ai-will-continue-to-be-a-narrative-in-2025/
+   摘要: AI innovations have taken the world by storm since ChatGPT’s debut in November 2022. We’ve seen more organisations integrate AI into their workflows: a recent survey by McKinsey revealed that 78% of the respondents work in organisations that use AI in at least one business function. What’s more intr...
+
+------------------------------------------------------------
+
+10. How AI transforms financial platforms: Tools and strategies
+   时间: 2025-04-07 08:09
+   链接: https://www.artificialintelligence-news.com/news/how-ai-transforms-financial-platforms-tools-and-strategies/
+   摘要: Financial platforms today enable users to access almost every financial service or product online from the convenience of their homes. The fintech revolution has been gaining momentum over the years, helping companies provide robust services and solutions to customers without the limitation of geogr...
+
+------------------------------------------------------------
+
+11. Navigating the EU AI Act: Implications for UK businesses
+   时间: 2025-04-07 07:10
+   链接: https://www.artificialintelligence-news.com/news/navigating-the-eu-ai-act-implications-for-uk-businesses/
+   摘要: The EU AI Act, which came into effect on August 1, 2024, marks a turning point in the regulation of artificial intelligence. Aimed at governing the use and development of AI, it imposes rigorous standards for organisations operating within the EU or providing AI-driven products and services to its m...
+
+------------------------------------------------------------
+
+12. The TAO of data: How Databricks is optimizing  AI LLM fine-tuning without data labels
+   时间: 2025-03-27 23:53
+   链接: https://venturebeat.com/data-infrastructure/the-tao-of-data-how-databricks-is-optimizing-ai-llm-fine-tuning-without-data-labels/
+   摘要: New approach flips the script on enterprise AI adoption by using input data you already have for fine-tuning instead of needing labelled data....
+
+------------------------------------------------------------
+
+13. ChatGPT gets smarter: OpenAI adds internal data referencing
+   时间: 2025-03-27 22:39
+   链接: https://venturebeat.com/ai/chatgpt-gets-smarter-openai-adds-internal-data-referencing/
+   摘要: Users of ChatGPT Team can now add internal databases as references for ChatGPT, making the chat platform respond with better context....
+
+------------------------------------------------------------
+
+14. DeepSeek-V3 now runs at 20 tokens per second on Mac Studio, and that’s a nightmare for OpenAI
+   时间: 2025-03-24 19:50
+   链接: https://venturebeat.com/ai/deepseek-v3-now-runs-at-20-tokens-per-second-on-mac-studio-and-thats-a-nightmare-for-openai/
+   摘要: DeepSeek's free 685B-parameter AI model runs at 20 tokens/second on Apple's Mac Studio, outperforming Claude Sonnet while using just 200 watts, challenging OpenAI's cloud-dependent business model....
+
+------------------------------------------------------------
+
+15. Speed is King: How Google’s $32B Wiz play rewrites DevOps security rules
+   时间: 2025-03-20 17:54
+   链接: https://venturebeat.com/security/googles-32b-wiz-bet-ai-driven-cnapp-will-finally-eliminate-devsecops-bottlenecks/
+   摘要: The real story behind Google acquiring Wiz is how the need for speed and better cloud security dominates every enterprise’s devops cycles....
+
+------------------------------------------------------------
+
+16. Moonvalley’s Marey is a state-of-the-art AI video model trained on FULLY LICENSED data
+   时间: 2025-03-14 14:13
+   链接: https://venturebeat.com/ai/moonvalleys-marey-is-a-state-of-the-art-ai-video-model-trained-on-fully-licensed-data/
+   摘要: Marey enables filmmakers to create using storyboards, sketches, and even live-action references, making it more intuitive for pros....
+
+------------------------------------------------------------
+
+17. Voltron Data just partnered with Accenture to solve one of AI’s biggest headaches
+   时间: 2025-02-20 14:00
+   链接: https://venturebeat.com/ai/voltron-data-just-partnered-with-accenture-to-solve-one-of-ais-biggest-headaches/
+   摘要: Voltron Data partners with Accenture to revolutionize enterprise data processing with GPU-powered analytics engine Theseus, promising up to 100x performance gains for AI-driven companies facing massive data challenges....
+
+------------------------------------------------------------
+
+18. Crunchbase’s AI can predict startup success with 95% accuracy—will it change investing?
+   时间: 2025-02-19 17:00
+   链接: https://venturebeat.com/ai/crunchbases-ai-can-predict-startup-success-with-95-accuracy-will-it-change-investing/
+   摘要: Crunchbase pivots to AI-powered predictions engine with 95% accuracy for startup funding rounds, abandoning historical data in favor of predictive intelligence that forecasts acquisitions and company growth....
+
+------------------------------------------------------------
+
+19. Elon Musk just released an AI that’s smarter than ChatGPT — here’s why that matters
+   时间: 2025-02-18 19:51
+   链接: https://venturebeat.com/ai/elon-musk-just-released-an-ai-thats-smarter-than-chatgpt-heres-why-that-matters/
+   摘要: Elon Musk's xAI launches Grok 3, outperforming ChatGPT and Google Gemini in benchmarks with 200,000 GPUs and advanced reasoning capabilities, intensifying AI competition days after failed OpenAI bid....
+
+------------------------------------------------------------
+
+20. PIN AI launches mobile app letting you make your own personalized, private DeepSeek or Llama-powered AI model on your phone
+   时间: 2025-02-13 17:09
+   链接: https://venturebeat.com/ai/pin-ai-launches-mobile-app-letting-you-make-your-own-personalized-private-deepseek-or-llama-powered-ai-model-on-your-phone/
+   摘要: PIN AI told VentureBeat they will make money by charging transaction fees for other AI agents to access users' information....
+
+------------------------------------------------------------
+
+21. Snowflake expands AI tools with Anthropic partnership — what it means for businesses
+   时间: 2025-02-12 13:59
+   链接: https://venturebeat.com/ai/snowflake-expands-ai-tools-with-anthropic-partnership-what-it-means-for-businesses/
+   摘要: Snowflake and Anthropic launch Cortex Agents, bringing Claude's enterprise-grade AI capabilities directly into corporate data environments....
+
+------------------------------------------------------------
+
+22. Anthropic CEO Dario Amodei warns: AI will match ‘country of geniuses’ by 2026
+   时间: 2025-02-12 01:27
+   链接: https://venturebeat.com/ai/anthropic-ceo-dario-amodei-warns-ai-will-match-country-of-geniuses-by-2026/
+   摘要: Anthropic CEO Dario Amodei calls Paris Summit a "missed opportunity" as U.S. and European leaders clash over AI regulation....
+
+------------------------------------------------------------
+
+23. Cerebras-Perplexity deal targets $100B search market with ultra-fast AI
+   时间: 2025-02-11 20:51
+   链接: https://venturebeat.com/ai/cerebras-perplexity-deal-targets-100b-search-market-with-ultra-fast-ai/
+   摘要: Cerebras and Perplexity AI launch ultra-fast Sonar search model running at 1,200 tokens per second, challenging traditional search engines....
+
+------------------------------------------------------------
+
+24. Who’s using AI the most? The Anthropic Economic Index breaks down the data
+   时间: 2025-02-10 20:46
+   链接: https://venturebeat.com/ai/whos-using-ai-the-most-the-anthropic-economic-index-breaks-down-the-data/
+   摘要: Anthropic uncovers AI's true workforce impact: 57% augmentation vs 43% automation across industries, based on 4 million Claude interactions....
+
+------------------------------------------------------------
+
+25. From 220M data points to revenue: How AI is transforming sports entertainment ROI
+   时间: 2025-02-07 14:00
+   链接: https://venturebeat.com/ai/from-220m-data-points-to-revenue-how-ai-is-transforming-sports-entertainment-roi/
+   摘要: A new AI-powered platform is already helping NFL and other sports teams better engage with fans and optimize revenue potential....
+
+------------------------------------------------------------
+
+26. Forget expensive leadership training—CodeSignal’s AI tool brings coaching to everyone
+   时间: 2025-02-05 17:00
+   链接: https://venturebeat.com/ai/forget-expensive-leadership-training-codesignals-ai-tool-brings-coaching-to-everyone/
+   摘要: CodeSignal launches AI-powered leadership training platform with voice simulation to democratize soft skills development at scale....
+
+------------------------------------------------------------
+
+27. OmniHuman: ByteDance’s new AI creates realistic videos from a single photo
+   时间: 2025-02-04 20:44
+   链接: https://venturebeat.com/ai/omnihuman-bytedances-new-ai-creates-realistic-videos-from-a-single-photo/
+   摘要: OmniHuman can turn photos into realistic videos of people speaking, singing and moving naturally, based on 18,700 hours of human motion data....
+
+------------------------------------------------------------
+
+28. These Yale and Berkeley dropouts just raised $2 million to build an AI assistant that could rival OpenAI
+   时间: 2025-01-30 14:01
+   链接: https://venturebeat.com/ai/these-yale-and-berkeley-dropouts-just-raised-2-million-to-build-an-ai-assistant-that-could-rival-openai/
+   摘要: Y Combinator-backed startup Martin AI secures $2M seed funding to challenge Siri and Google with its innovative personal AI assistant, built by 19-year-old founders to revolutionize how consumers interact with AI through custom memory architecture and multi-channel accessibility....
+
+------------------------------------------------------------
+
+29. Alibaba’s Qwen2.5-Max challenges U.S. tech giants, reshapes enterprise AI
+   时间: 2025-01-28 21:15
+   链接: https://venturebeat.com/ai/alibabas-qwen2-5-max-challenges-u-s-tech-giants-reshapes-enterprise-ai/
+   摘要: Alibaba's Qwen2.5-Max AI model sets new performance benchmarks in enterprise-ready artificial intelligence, promising reduced infrastructure costs and improved efficiency for business applications....
+
+------------------------------------------------------------
+
+30. Essential principles to produce and consume data for AI acceleration
+   时间: 2025-01-28 14:50
+   链接: https://venturebeat.com/ai/essential-principles-to-produce-and-consume-data-for-ai-acceleration/
+   摘要: VB LAB INSIGHTS: This is a VB Lab Insights article presented by Capital One. AI offers transformative potential, but unlocking its value requires strong data management. AI builds on a solid data foundation that can iteratively improve, creating a flywheel effect between data and AI. This flywheel e...
+
+------------------------------------------------------------
+

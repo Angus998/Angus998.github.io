@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI周报(0322-0328)</title>
+    <!-- 引入Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.8;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        h1 {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        h2 {
+            font-size: 2rem;
+            font-weight: 600;
+        }
+        h3 {
+            font-size: 1.5rem;
+            font-weight: 500;
+        }
+        .quote {
+            font-style: italic;
+            color: #555;
+            margin: 2rem 0;
+            padding: 1rem;
+            border-left: 4px solid #007BFF;
+            background-color: #f1f1f1;
+        }
+        .section {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .section ul {
+            padding-left: 1.5rem;
+        }
+        .section ul li {
+            margin-bottom: 0.5rem;
+        }
+        .footer {
+            margin-top: 3rem;
+            text-align: center;
+            color: #777;
+            padding: 1rem;
+            background-color: #f8f9fa;
+            border-top: 1px solid #ddd;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .img-fluid {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin: 1rem 0;
+        }
+        .responsive-img {
+            max-width: 90%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container my-5">
+        <h1 class="text-center mb-4">AI周报(0322-0328)</h1>
+
+        <div class="section">
+            <h3>1、AI应用(toB/C)——Product Anyshoot重建商品展示流程，解决中小商家内容制作痛点</h3>
+            <p>Product Anyshoot是一款创新的AI视频生成工具，专为<strong>电商行业</strong>设计，旨在提升商品展示的效率和真实感。商家只需上传商品图片，系统便能智能地将商品融入预制视频中，极大地简化了制作流程。</p>
+            <p>该产品有三项核心功能特点：</p>
+            <ul>
+                <li> <strong>智能商品融合</strong>: 上传单张商品图即可将产品自然“穿戴”在虚拟模特身上，支持项链、服装、家具等全品类适配；</li>
+                <li> <strong>超高清还原技术</strong>: 商品颜色、纹理细节保留度超98%，显著优于Pika、通义万相等竞品；</li>
+                <li> <strong>模板生态体系</strong>: 内置5000+预制模板，涵盖TikTok热门风格、INS风等20种场景，支持自定义灯光与背景。</li>
+            </ul>
+            <p>这种技术不仅大幅降低了视频制作的时间和成本，还为中小型商家提供了与大品牌竞争的机会。过去需要数小时甚至数天完成的商品展示视频，如今只需几分钟即可生成，且效果毫不逊色于专业拍摄。</p>
+            <a href="https://www.chinaz.com/ainews/16624.shtml" target="_blank">零成本拍爆款！AI电商视频生成神器Product Anyshoot来了 转化率飙升300%</a><br>
+            
+<!--             <div class="center">
+                <img src="./京东健康.jpg" alt="示例图片" class="responsive-img">
+            </div> -->
+        </div>
+
+        <div class="section">
+            <h3>2、AI应用(toC)——AgenticSeek，一款AI语音助手，开源、完全本地化为核心特点</h3>
+            <p>AgenticSeek是对Manus概念的<strong>完全本地化</strong>的替代品，也是一款支持<strong>语音交互</strong>的AI助手，能够编写代码（写一个贪吃蛇游戏）、浏览文件系统（询问文件路径）、浏览网页(联网搜索)以及闲聊等。它采用本地化部署的大模型如DeepSeekR1等构建，完全在用户个人的硬件机器上运行，全程不向云端发送任何数据，以确保数据隐私。</p>
+            <p>除了比较有特点的语音交互以外，该应用采用了Meta发布的<strong>Ollama服务工具</strong>来实现大模型的本地化部署和调用保证生产力提升的同时数据不外泄；另外也提出倾向于使用DeepSeekR1等推理模型，因为其推理和工具调用能力更加强大。<p>
+            <p>该应用提出后续的开发方向包括：复杂任务规划、用户偏好记忆、RAG知识辅助、OCR和可视化界面开发等。</p>
+            <a href="https://github.com/Fosowl/agenticSeek" target="_blank">代码仓库和运行教程</a><br>
+            <a href="https://github.com/Fosowl/agenticSeek" target="_blank">Ollama本地化部署实践</a><br>
+            <a href="https://mp.weixin.qq.com/s/n9plBOFe6DVkP6emkx5VmQ" target="_blank">AgenticSeek：一款完全本地化的AI语音助手，让你的电脑秒变私人智能顾问</a><br>
+        </div>
+
+        <div class="section">
+            <h3>3、AI模型(基座大模型)——阿里最新全模态模型Qwen2.5-Omni,7B规模胜任多项任务</h3>
+            <p>3月26日，阿里通义千问发布了Qwen2.5-Omni，能够处理文本、图像、音频和视频等多种输入形式，并通过实时流式响应<strong>同时生成文本与自然语音合成输出</strong>。</p>
+            <p>模型基于通义团队首创的<strong>Thinker-Talker双核架构</strong>、位置嵌入融合音视频技术、位置编码算法TMRoPE，形成了端到端的统一模型架构,使得其在语音理解、图片理解、视频理解、语音生成等领域的测评分数，均领先于专门的音频或视觉模型，且语音生成测评分数（4.51）达到了与人类持平的能力。</p>
+            <p>凭借全模态的能力和较小的参数规模，让模型在多种产业如端侧AI等广泛运用变得可能。目前参数权重已开源至HuggingFace和魔搭社区，</p>
+            <a href="https://mp.weixin.qq.com/s/BVDZ9Pfqup80gnjxlntsvg" target="_blank">消费级显卡也能跑！Qwen2.5-Omni-7B开源</a><br>
+            <a href="https://mp.weixin.qq.com/s/Mcfgmmwa7jpvR_lquv1Iww" target="_blank">魔搭社区模型介绍</a><br>
+        </div>
+        
+        <div class="section">
+            <h3>4、AI模型(基座大模型)——DeepSeekV3更新，前端代码和内容创作能力显著增强</h3>
+            <p>DeepSeek-V3-0324模型悄然上线，通过FP8精度和4-bit量化技术实现高效运行，在512GB M3 Ultra(苹果3月发布的处理器芯片)上速度超20 token/s，代码能力直逼Claude 3.7 Sonnet，数学推理可解竞赛级问题，支持单提示生成完整响应式网页代码。</p>
+            <p>该模型采用MIT开源协议，允许自由商用，有用户提出更新后的V3模型可以轻松免费地创建外观精美的图像网站，虽然不是推理模型，但现在比R1更适合<strong>制作 HTML5 + CSS + 前端</strong>。另一方面，新V3模型在内容创作方面也有明显提升，在联网模式下，新版本<strong>输出内容更加详实、排版更美观</strong>，中长篇内容如3000字的市场报告等生成质量更高。</p>
+            
+            <a href="https://mp.weixin.qq.com/s/XK6ymJL7y0vo_GQXxmpuBA" target="_blank">DeepSeek-V3 模型更新，各项能力全面进阶</a><br>
+            <a href="https://mp.weixin.qq.com/s/2Is-y_kvuKzzBM39NJWx9w" target="_blank">DeepSeek-V3 深夜低调升级，代码进化令人震惊</a><br>
+        </div>
+
+        <div class="footer">
+            <p>AI周报(0322-0328) - 结束</p>
+            <a href="../index.html">返回首页</a>
+        </div>
+    </div>
+
+    <!-- 引入Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

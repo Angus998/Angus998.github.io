@@ -10,7 +10,7 @@
                 font-family: 微软雅黑, Segoe UI, sans-serif;
                 margin: 0;
                 padding: 20px;
-                background: linear-gradient(to bottom, #f0e6ff, #dcaeff); /* 保留渐变背景 */
+                background: linear-gradient(to bottom, #f0e6ff, #dcaeff); 
                 line-height: 1.6;
             }
             .container {
@@ -27,9 +27,9 @@
             }
             .header h1 {
                 color: #000;
-                font-size: 60px;
+                font-size: 48px; /* 基础字体，通过媒体查询覆盖 */
                 margin: 10px 0;
-                text-shadow: 2px 2px 4px rgba(153, 0, 153, 0.5); /* 保留描边效果 */
+                text-shadow: 2px 2px 4px rgba(153, 0, 153, 0.5);
             }
             .subtitle {
                 background: #990099;
@@ -37,7 +37,7 @@
                 padding: 10px;
                 border-radius: 5px;
                 display: inline-block;
-                font-size: 24px;
+                font-size: 24px; /* 基础字体 */
             }
             .news-item {
                 margin: 20px 0;
@@ -47,7 +47,7 @@
                 box-shadow: 0 2px 5px rgba(0,0,0,0.05);
             }
             .news-item:nth-child(even) {
-                background: #f8f8ff; /* 交替背景色 */
+                background: #f8f8ff; 
             }
             .icon {
                 font-size: 24px;
@@ -55,22 +55,22 @@
                 vertical-align: middle;
             }
             .title {
-                font-size: 20px;
+                font-size: 20px; /* 基础标题字体 */
                 color: #000;
                 margin-bottom: 10px;
             }
             .score {
                 float: right;
-                font-size: ./segoe-ui-emoji.ttfpx;
+                font-size: 14px;
                 color: #000;
             }
             .score em {
-                color: #FFA500; /* 火焰颜色 */
+                color: #FFA500; 
                 font-style: normal;
             }
             .link {
-                color: #990099; /* 紫色链接 */
-                font-size: 15px;
+                color: #990099; 
+                font-size: 16px; /* 基础链接字体 */
                 display: block;
                 margin: 10px 0;
                 text-align: center;
@@ -78,7 +78,7 @@
             }
             .abstract {
                 color: #666;
-                font-size: 13px;
+                font-size: 14px; /* 基础摘要字体 */
                 margin-top: 15px;
                 padding-left: 20px;
                 border-left: 3px solid #990099;
@@ -93,9 +93,19 @@
                 margin: 5px 8px;
                 padding: 8px 15px;
                 border-radius: 20px;
-                font-size: 18px;
+                font-size: 16px; /* 基础标签字体 */
                 color: white;
                 text-decoration: none;
+            }
+
+            /* 媒体查询：屏幕宽度小于768px时（手机端）调整字体 */
+            @media (max-width: 768px) {
+               .header h1 { font-size: 32px; }
+               .subtitle { font-size: 18px; }
+               .title { font-size: 16px; }
+               .link { font-size: 14px; }
+               .abstract { font-size: 12px; }
+               .tag { font-size: 14px; }
             }
         </style>
     </head>
@@ -104,12 +114,12 @@
             <div class="header">
                 <div style="display: flex; justify-content: space-between; align-items: center;">
                     <div>
-                        <span style="font-size: 25px; color: white; background: #000; padding: 5px 15px; border-radius: 5px;">
+                        <span style="font-size: 20px; color: white; background: #000; padding: 5px 15px; border-radius: 5px;">
                             2025-04-24
                         </span>
                     </div>
                     <div>
-                        <span style="background: #FFD700; padding: 5px 15px; border-radius: 5px; color: #000; font-size: 25px;">
+                        <span style="background: #FFD700; padding: 5px 15px; border-radius: 5px; color: #000; font-size: 20px;">
                             [翼支付]
                         </span>
                     </div>

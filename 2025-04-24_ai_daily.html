@@ -96,6 +96,25 @@
                 color: white;
                 text-decoration: none;
             }
+            .date-navigation {
+                padding: 20px;
+                border-bottom: 1px solid #eee;
+                margin-bottom: 30px;
+            }
+            .date-link {
+                display: inline-block;
+                margin: 5px 10px;
+                padding: 8px 15px;
+                border-radius: 25px;
+                text-decoration: none;
+                color: #666;
+                background: #f5f5f5;
+                transition: background 0.3s;
+            }
+            .date-link:hover {
+                background: #990099;
+                color: white;
+            }
 
             /* 媒体查询：屏幕宽度小于768px时（手机端）调整字体 */
             @media (max-width: 768px) {
@@ -105,11 +124,19 @@
                .link { font-size: 14px; }
                .abstract { font-size: 12px; }
                .tag { font-size: 14px; }
+               .date-link { font-size: 14px; }
             }
         </style>
     </head>
     <body>
         <div class="container">
+            
+<div class="date-navigation">
+    <h3>日期选择</h3>
+    <a href="2025-04-24_ai_daily.html" class="date-link">2025-04-24</a>
+<a href="2025-04-23_ai_daily.html" class="date-link">2025-04-23</a>
+</div>
+
             <div class="header">
                 <div style="display: flex; justify-content: space-between; align-items: center;">
                     <div>

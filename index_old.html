@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI周报(0412-0418)</title>
+    <style>
+        /* 全局样式 */
+        body {
+            font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* 头部样式 */
+        header {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            letter-spacing: 1px;
+        }
+
+        /* 容器样式 */
+        .container {
+            width: 90%;
+            max-width: 960px;
+            margin: 30px auto;
+            background-color: #fff;
+            padding: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        /* 标题样式 */
+        h2 {
+            color: #2c3e50;
+            font-size: 2em;
+            margin-top: 0;
+        }
+
+        /* 新闻条目样式 */
+        .news-item {
+            margin-bottom: 30px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid #eaeaea;
+            transition: all 0.3s ease;
+        }
+
+        .news-item:last-child {
+            border-bottom: none;
+        }
+
+        .news-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .news-item h3 {
+            margin: 0;
+            font-size: 1.6em;
+            color: #2c3e50;
+        }
+
+        .news-item p {
+            margin: 15px 0;
+            color: #666;
+            font-size: 1.1em;
+        }
+
+        /* 链接样式 */
+        .news-item a {
+            color: #3498db;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .news-item a:hover {
+            color: #2980b9;
+            text-decoration: underline;
+        }
+
+        /* 详情列表样式 */
+        details {
+            margin-top: 15px;
+        }
+
+        summary {
+            font-size: 1.2em;
+            color: #2c3e50;
+            cursor: pointer;
+            outline: none;
+        }
+
+        summary::-webkit-details-marker {
+            display: none;
+        }
+
+        summary::before {
+            content: '▶ ';
+            margin-right: 5px;
+            transition: transform 0.3s ease;
+        }
+
+        details[open] summary::before {
+            transform: rotate(90deg);
+        }
+        p {
+            text-indent: 2em;
+            text-align: justify;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>AI周报(0412-0418)</h1>
+    </header>
+    <div class="container">
+        <div class="news-item">
+            <h3>1、AI应用(toB)——微信上线ai助手元宝，与微信生态高度融合</h3>
+            <p>4月16日，微信上线了AI助手“元宝”。用户可以直接将它添加为好友，在微信聊天界面与其进行互动。<p>
+            <p>元宝搭载了腾讯混元大模型和DeepSeek双模引擎，并无缝衔接微信生态。它目前支持的核心功能包括：<strong>一键解析公众号文章</strong>、<strong>提取图片文字和解析表格数据</strong>、<strong>识别物体和场景等</strong>，并支持对解读内容做进一步提问互动，同时也支持日常陪伴。用户与元宝的交互方式类似于常规的ChatBot：在聊天框内通过<strong>文字或者语音</strong>输入任意需求，元宝即给出解答。轻量级的回复可在聊天界面实现，而复杂回复则以链接形式呈现，并在链接下方提供腾讯元宝APP的官方入口，后者可以提供更专业、复杂的问答服务。</p>
+            <p>目前元宝暂时无法直接接入或推送小程序、视频号、公众号等微信生态内容,但有观点认为打通、盘活自有体系内容是微信近年来的一项核心工作，元宝ai助手的商业化动作将不止如此。</p>
+
+            <a href="https://mp.weixin.qq.com/s/A40JYY8CmemyXqUJnxVJ9g" target="_blank">微信低调上线首个AI助手“元宝”</a><br>
+            <a href="https://www.aibase.com/zh/news/17238" target="_blank">​微信首个AI助手 “元宝” 正式上线，可以添加为微信好友</a><br>
+        </div>
+
+        <div class="news-item">
+            <h3>2、AI应用(toB/C)——魔搭社区上线MCP广场，支付宝、MiniMax等国内厂商提供MCP服务</h3>
+            <p>一言以蔽之，MCP是为大模型调用内外部工具、数据源建立的一套标准协议，目标是通过简单甚至无代码化的配置，完成模型和工具的对接，免去定制化代码开发，以实现agent高效构建。</p>
+            <p>目前，开发者和机构可以在MCP广场查看近1500种MCP的功能与应用场景，并通过MCP实验场直接测试使用。同时，魔搭社区同步推出MCPBench开源工具，帮助应用开发者挑选和评估MCP的有效性，效率以及token等资源消耗。</p>
+            <p>其中有代表性的，支付宝MCP服务是国内首款聚焦<strong>AI智能体支付场景</strong>的MCP服务，提供支付宝在手机电脑上的交易创建、查询、退款等能力，让AI智能体一键接入支付能力，打通从AI服务到AI商业化的“最后一公里”。 MiniMax的MCP服务器则将领先的语音生成、语音克隆、图片生成以及视频生成等模型封装成可统一调用的MCP工具，让<strong>纯文本大模型“秒变”多模态模型</strong>。</p>
+
+            <a href="https://mp.weixin.qq.com/s/MTzth48-WEFvO3yA5XkMew" target="_blank">魔搭上线最大MCP中文社区，独家首发支付宝、MiniMax等MCP</a><br>
+        </div>
+
+        <div class="news-item">
+            <h3>3、AI模型(基座大模型)——豆包1.5深度思考模型发布，推理能力更强并支持图像推理</h3>
+            <p>4月17号的火山引擎创新巡展上，豆包 1.5・深度思考模型被正式宣布豆包大模型全家桶。豆包 1.5・深度思考模型包含两个版本，第一个主线版本是大语言模型Doubao-1.5-thinking-pro，第二个是具备多模态能力的视觉版 Doubao-1.5-thinking-pro-vision。前者推理能力更强，后者支持视觉推理。</p>
+            <p>从技术评测上看，Doubao-1.5-thinking-pro 模型采用 MoE 架构，<strong>总参数为 200B，激活参数仅 20B</strong>，具备显著的训练和推理成本优势，在基准测试中表现出超越DeepSeek-R1，追平OpenAI o3-mini-high的水平。另一方面，多模态版本结合视觉理解技术提供多项场景应用：例如根据照片分析地貌，<strong>旅行时帮助用户点餐，协助分析医学影像生成诊断报告</strong>，基于建筑草图优化建议。</p>
+            <p>有评测观点提出，具备视觉推理能力的豆包 1.5・深度思考模型，就像是一个天生长有「聪明大脑」和「眼睛」的超级 AI，不再像以往推理模型「单打独斗」，一举突破纯文本或单模态的局限，得以进入到更多复杂、核心、高价值的场景。</p>
+            <a href="https://github.com/ByteDance-Seed/Seed-Thinking-v1.5" target="_blank">豆包1.5技术报告</a><br>
+            <a href="https://mp.weixin.qq.com/s/skUEsExoBU3K8jk0E9mhQw" target="_blank">刚刚，豆包1.5·深度思考模型上线</a><br>
+        </div>
+
+        <div class="news-item">
+            <h3>4、AI模型(基座大模型)——OpenAI 发布o3和o4-mini，多项基准测试达到最佳</h3>
+            <p>4月17日，OpenAl宣布发布o系列最新模型o3和o4-mini, o3是首次将<strong>图像推理融入思维链</strong>的模型，能直接在思维链中理解图像。用户可以上传模糊、颠倒或低质量的图像，模型不调用外部工具或专用模型就可以解读并进行裁剪、放大、旋转等操作。此外，在数学、编程、调用工具等方面，表现比o1更出色，在多个基准测试中达到SOTA（最佳性能）水平。在o3的开发过程中，研究人员观察到：大规模强化学习呈现出与预训练一样的<strong>“更大计算量=更好性能”</strong>的趋势。</p>
+            <p>o4-mini是一款小型模型，<strong>专为快速、经济高效的推理而优化</strong>，在一项数学基准测试中甚至超过o3,整体评测性能也超过前代o3-mini。得益于其高效性，o4-mini支持的使用限制远高于o3，在需要高容量、高吞吐量的推理能力调用场景下相比o3是更好的选择。在API价格方面，o3和o4-mini相比前代o1,o3-mini价格也有所降低。</p>
+
+            <a href="https://openai.com/index/introducing-o3-and-o4-mini/?utm_source=ai-bot.cn" target="_blank">o3、o4-mini官方介绍</a><br>
+            <a href="https://mp.weixin.qq.com/s/1sfurXg5s3yBKlKodk2JbA" target="_blank">刚刚，OpenAI发布最强推理模型o3！图像深度思考首秀，开源编程智能体已揽5k+star</a><br>
+        </div>
+
+        
+        <!-- 添加更多新闻条目 -->
+        <div class="news-item">
+            <h3>往期周报</h3>
+            <details>
+                <summary>24年12月</summary>
+                <a href="./20241214/week_20241214.html">20241214-20241220</a><br>
+                <a href="./20241221/week_20241221.html">20241221-20241227</a><br>
+                <a href="./20241228/week_20241228.html">20241228-20250103</a><br>
+            </details>
+            <details>
+                <summary>25年1月</summary>
+                <a href="./20250104/week_20250104.html">20250104-20250110</a><br>
+                <a href="./20250111/week_20250111.html">20250111-20250117</a><br>
+            </details>
+            <details>
+                <summary>25年2月</summary>
+                <a href="./20250201/week_20250201.html">20250201-20250207</a><br>
+                <a href="./20250208/week_20250208.html">20250208-20250214</a><br>
+                <a href="./20250215/week_20250215.html">20250215-20250221</a><br>
+                <a href="./20250222/week_20250222.html">20250222-20250228</a><br>
+            </details>
+            <details>
+                <summary>25年3月</summary>
+                <a href="./20250301/week_20250301.html">20250301-20250307</a><br>
+                <a href="./20250308/week_20250308.html">20250308-20250314</a><br>
+                <a href="./20250315/week_20250315.html">20250315-20250321</a><br>
+                <a href="./20250322/week_20250322.html">20250322-20250328</a><br>
+            </details>
+            <details>
+                <summary>25年4月</summary>
+                <a href="./20250405/week_20250405.html">20250405-20250411</a><br>
+                <a href="./2025-04-24_ai_daily.html">2025-04-24</a><br>
+            </details>
+            
+        </div>
+    </div>
+</body>
+
+</html>
